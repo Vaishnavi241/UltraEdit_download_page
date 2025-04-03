@@ -1,0 +1,330 @@
+* {
+    font-family: 'Segoe UI';
+    border: border-box;
+    margin:0;
+    padding:0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+.logo img {
+    width: 180px;
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li {
+    list-style: none;
+    gap: 8px;
+    display: flex;
+    cursor: pointer;
+}
+
+.right ul li span {
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    justify-content: center;
+    display: flex;
+    font-size: 48px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+}
+
+.box {
+    padding: 12px 20px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.box3 {
+    background-color: rgb(0, 182, 209);
+    width: 312px;
+    height: 48px;
+    border-radius: 8px;
+}
+.box3 button {
+    margin: 10px;
+    background-color: rgb(0, 182, 209);
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+.box3:hover{
+    background-color:rgb(6, 74, 85) ;
+    cursor: pointer;
+}
+.box3 button:hover{
+    background-color:rgb(6, 74, 85) ;
+    cursor: pointer;
+}
+
+.box5 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 270px;
+    margin-top: 70px;
+    margin-bottom: 24.4px;
+}
+
+.box6 {
+    font-size: 24px;
+}
+
+.box6 small {
+    font-size: 14.4px;
+}
+.grid{
+    display: grid;
+    grid:auto/auto auto auto;
+    gap:25px;
+    margin-left: 279px;
+    margin-right: 279px;
+    margin-bottom: 62px;;
+
+}
+.card{
+    max-width: 302px;
+    background-color: #f9f9f9;
+    /*padding: 16px;*/
+    text-align: center;
+    border-radius: 5px;
+    word-wrap: break-word;
+    height: 193px;
+    display: block;
+}
+.translate{
+    margin: 12px;
+}
+.translate small{
+    font-size: 12px;
+    font-weight: 400;
+}
+.button{
+    padding:8px 15px;
+}
+.one{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.two{
+    padding:8px 16px;
+    background-color: rgb(92, 184, 92);
+    font-weight: 600;
+    color:white;
+    border-radius: 8px;
+    margin-left: 71px;
+    margin-right: 71px;
+    margin-top: 20px;
+    border:1px solid transparent;
+    padding:8px 20px;
+}
+.two a{
+    text-decoration: none;
+    color: white;
+    
+}
+.five{
+    padding:8px 16px;
+    background-color: rgb(92, 184, 92);
+    font-weight: 600;
+    color:white;
+    border-radius: 8px;
+    margin-left: 71px;
+    margin-right: 71px;
+    margin-top: 20px;
+    border:1px solid transparent;
+    padding:8px 20px;
+}
+.five a{
+    text-decoration: none;
+    color: white;
+    
+}
+.three{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.four{
+    font-size: 8px;
+    text-align: center;
+    margin-left: 31px;
+    margin-right: 31px
+}
+.section-2{
+    padding:48px;
+    background-color: black;
+    margin:0;
+    width: 93%;
+    height: 60vh;
+    display: flex;
+}
+.section-3{
+    display: block;
+    width: 453.6px;
+    text-align: center;
+    margin-left: 240px;
+    color:white;
+}
+.section-4{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    display: block;
+    text-align: center;
+    margin-top: 153px;
+}
+.section-5{
+    word-wrap: break-word;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0;
+    height: 48px;
+    line-height :24px;
+}
+.box7{
+    max-width: 345px;
+    background-color: white;
+    padding: 34px 38px;
+    border-radius: 14px;
+    margin-left: 126px;
+    margin-top: 87px;
+    height: 210px;
+}
+.content{
+    color:rgb(0, 182, 209);
+    font-size: 24px;
+    font-weight :500;
+    margin-bottom: 23px;
+    text-align: center;
+}
+ .email label{
+    text-align: center;
+    display: block;
+    margin-bottom: 7px;
+}
+.email input{
+    border-color: rgba(51, 51, 51,.16) ;
+    width: 251px;
+    height: 34px;
+    padding: 10px;
+    margin-bottom: 12px;
+    font-size:14px;
+}
+.signup input{
+    background-color: rgb(0, 182, 209);
+    height: 46px;
+    width: 275px;
+    border-radius: 6px;
+    border-bottom-color: rgb(77, 170, 242);
+    border-left-color: white;
+    border-right-color: white;
+    border-top-color: white;
+    box-shadow:0 12px 18px -6px rgba(77, 170, 242,.37);
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+.footer-content{
+    padding-left:264px;
+    background-color: black;
+    overflow-wrap: break-word;
+    width:81.9%;
+   
+}
+.content-1,.content-4{
+    font-size: 24px;
+    margin-bottom:8px ;
+    font-weight: 500;
+    color:white;
+}
+.content-2,.content-3{
+    font-size: 16px;
+    margin-bottom: 14px;
+    font-weight: 500;
+    color: white;
+}
+.content-3 a,.content-5 a{
+    text-decoration-line: none;
+    color:rgb(0, 182, 209);
+    cursor: pointer;
+}
+.content-5{
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 67px;
+    color: white;
+    width: 70%;
+}
+.pre-footer{
+    margin-top:34px;
+}
+.prefootercontent1{
+    
+    display:flex;
+    justify-content: center;
+    width:100%;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.list p{
+    font-weight: 700;
+}
+.list a{
+    display:flex ;
+    flex-wrap: wrap;
+    width:190px;
+    font-size: .85rem;
+}
+.list{
+    margin:0 45px;
+    padding-bottom: 10px;
+}
+.sections{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sectiona img{
+    width:170px;
+}
+.sectiona p{
+    font-size: 12px;
+    padding-top: 5px;
+}
+.sectionb{
+    padding:15px;
+    font-size:1.8rem;
+}
+@media screen and (max-width:1010px) {
+    .grid{
+        grid-template-columns:1fr 1fr;
+    }
+}
+@media screen and (max-width:645px) {
+    .grid{
+        grid-template-columns:1fr;
+    }
+}
